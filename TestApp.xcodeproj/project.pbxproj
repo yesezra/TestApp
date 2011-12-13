@@ -15,7 +15,32 @@
 		63A6465D1496CCDB0076C89E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A6465C1496CCDB0076C89E /* main.m */; };
 		63A646611496CCDB0076C89E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A646601496CCDB0076C89E /* AppDelegate.m */; };
 		63A646641496CCDB0076C89E /* TestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A646621496CCDB0076C89E /* TestApp.xcdatamodeld */; };
+		63A646791496CD430076C89E /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A646761496CD0C0076C89E /* libQuickDialog.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A646731496CD0C0076C89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		63A646751496CD0C0076C89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		63A646771496CD3B0076C89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		63A6464A1496CCDA0076C89E /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,13 +48,14 @@
 		63A646501496CCDA0076C89E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63A646521496CCDB0076C89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		63A646541496CCDB0076C89E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		63A646581496CCDB0076C89E /* TestApp-Info.plist */ = {isa = PBXFileReference; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		63A646581496CCDB0076C89E /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		63A6465A1496CCDB0076C89E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63A6465C1496CCDB0076C89E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63A6465E1496CCDB0076C89E /* TestApp-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
-		63A6465F1496CCDB0076C89E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		63A6465E1496CCDB0076C89E /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		63A6465F1496CCDB0076C89E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63A646601496CCDB0076C89E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63A646631496CCDB0076C89E /* TestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestApp.xcdatamodel; sourceTree = "<group>"; };
+		63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = QuickDialog/QuickDialog.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A646791496CD430076C89E /* libQuickDialog.a in Frameworks */,
 				63A6464F1496CCDA0076C89E /* UIKit.framework in Frameworks */,
 				63A646511496CCDB0076C89E /* Foundation.framework in Frameworks */,
 				63A646531496CCDB0076C89E /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +80,7 @@
 				63A646561496CCDB0076C89E /* TestApp */,
 				63A6464D1496CCDA0076C89E /* Frameworks */,
 				63A6464B1496CCDA0076C89E /* Products */,
+				63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +125,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63A6466B1496CD0C0076C89E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A646741496CD0C0076C89E /* QuickDialogExample.app */,
+				63A646761496CD0C0076C89E /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,6 +148,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				63A646781496CD3B0076C89E /* PBXTargetDependency */,
 			);
 			name = TestApp;
 			productName = TestApp;
@@ -136,12 +174,35 @@
 			mainGroup = 63A6463F1496CCDA0076C89E;
 			productRefGroup = 63A6464B1496CCDA0076C89E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 63A6466B1496CD0C0076C89E /* Products */;
+					ProjectRef = 63A6466A1496CD0C0076C89E /* QuickDialog.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				63A646491496CCDA0076C89E /* TestApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63A646741496CD0C0076C89E /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = 63A646731496CD0C0076C89E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63A646761496CD0C0076C89E /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = 63A646751496CD0C0076C89E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		63A646481496CCDA0076C89E /* Resources */ = {
@@ -166,6 +227,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A646781496CD3B0076C89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = 63A646771496CD3B0076C89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		63A646591496CCDB0076C89E /* InfoPlist.strings */ = {
